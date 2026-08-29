@@ -1,0 +1,144 @@
+{
+  "version": "31.4.1",
+  "pages": [
+    {
+      "id": "3cnqwz3TAFGl8TdH6URT",
+      "name": "Page-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-20",
+          "type": "node",
+          "parent": "1",
+          "label": "Student",
+          "html": "<span style=\"background-color: rgb(5, 130, 255);\">Student</span>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-21",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-20",
+          "label": "name\nemail\ndateRegistered",
+          "html": "name<div>email</div><div>dateRegistered</div>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-22",
+          "type": "node",
+          "parent": "1",
+          "label": "Course",
+          "html": "<span style=\"background-color: rgb(5, 130, 255);\">Course</span>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-23",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-22",
+          "label": "Title\nPrice\nInstructor\nTags",
+          "html": "Title<div>Price</div><div>Instructor</div><div>Tags</div>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-27",
+          "type": "edge",
+          "parent": "1",
+          "target": "WD5q0SkmQRm5SO6bqdjp-23"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-28",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-27",
+          "label": "enrolls"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-29",
+          "type": "node",
+          "parent": "1",
+          "label": "Student",
+          "html": "<span style=\"background-color: rgb(5, 130, 255);\">Student</span>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-30",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-29",
+          "label": "firstName (STRING)\nlastName (STRING)\nemail (STRING)\ndateRegistered (dateTime)",
+          "html": "<div>firstName (STRING)</div><div>lastName (STRING)</div><div>email (STRING)</div><div>dateRegistered (dateTime)</div>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-31",
+          "type": "node",
+          "parent": "1",
+          "label": "Course",
+          "html": "<span style=\"background-color: rgb(5, 130, 255);\">Course</span>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-32",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-31",
+          "label": "Title (STRING)\nPrice (INT)\nInstructor (STRING)\nTags (STRING)",
+          "html": "Title (STRING)<div>Price (INT)</div><div>Instructor (STRING)</div><div>Tags (STRING)</div>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-35",
+          "type": "node",
+          "parent": "1",
+          "label": "Enrollment",
+          "html": "<span style=\"background-color: rgb(5, 130, 255);\">Enrollment</span>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-36",
+          "type": "node",
+          "parent": "WD5q0SkmQRm5SO6bqdjp-35",
+          "label": "date (dateTime)\nprice (float)",
+          "html": "date (dateTime)<div>price (float)</div><div><br></div>"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-37",
+          "type": "edge",
+          "parent": "1",
+          "source": "WD5q0SkmQRm5SO6bqdjp-30",
+          "target": "WD5q0SkmQRm5SO6bqdjp-36"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-38",
+          "type": "edge",
+          "parent": "1",
+          "source": "WD5q0SkmQRm5SO6bqdjp-32",
+          "target": "WD5q0SkmQRm5SO6bqdjp-36"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-39",
+          "type": "node",
+          "parent": "1",
+          "label": "CONCEPTUAL MODEL"
+        },
+        {
+          "id": "WD5q0SkmQRm5SO6bqdjp-41",
+          "type": "node",
+          "parent": "1",
+          "label": "LOGICAL MODEL"
+        },
+        {
+          "id": "56cWzuvtBDuRa7vNW0LR-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Certifications",
+          "html": "<span style=\"background-color: rgb(47, 155, 255);\">Certifications</span>"
+        },
+        {
+          "id": "56cWzuvtBDuRa7vNW0LR-2",
+          "type": "node",
+          "parent": "56cWzuvtBDuRa7vNW0LR-1",
+          "label": "date (dateTime)\nprice (float)\nTitle(STRING)\nfirstName (STRING)\nlastName(STRING)",
+          "html": "date (dateTime)<div>price (float)</div><div>Title(STRING)</div><div>firstName (STRING)</div><div>lastName(STRING)</div>"
+        },
+        {
+          "id": "56cWzuvtBDuRa7vNW0LR-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "WD5q0SkmQRm5SO6bqdjp-31",
+          "target": "56cWzuvtBDuRa7vNW0LR-2"
+        }
+      ]
+    }
+  ]
+}
