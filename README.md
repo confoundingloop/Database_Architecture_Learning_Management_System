@@ -52,6 +52,6 @@ The included sample dataset contains 8 instructors, 15 courses, 10 tags, 20 stud
 .
 ├── .gitattributes
 ├── README.md
-├── learning_management_system.drawio
+├── learning_management_system.xml
 └── learning_management_system.sql
 ```
